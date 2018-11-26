@@ -1,0 +1,22 @@
+THIS IS FILE TRANSFER PRGORAM WHICH TAKE ANY FILE FROM CLINET AND SEND IT TO SERVER
+AND THIS TRANSFER AUDIO,VEDIO,TEXT,PDF FILE ANY KIND OF FILE
+AND ALL MACHINE REQUIRED THAT SERVER FILE
+
+TO TRANSFER ONLY ONE SERVER RUN
+	gcc server.c -o .server
+	<One One Machine Server Will Run First>
+	./.server PORTNO<e.g=8080>
+	gcc client.c -o .client
+	Then Run Client On Another Machine
+	./.client IP PORT FILENAME
+
+
+TO TRANSFER FILE ON ALL USERS THAT ARE LIVE OR CURRENTY IN NETWORK
+It Broadcast To ALL One By One
+Only run 
+	gcc broadcast.c -o b
+	./b
+ 
+
+  
+
